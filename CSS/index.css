@@ -1,0 +1,61 @@
+html {
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+@font-face {
+    font-family: roboto;
+    src: url("Assets/Fuentes/Roboto-Regular.ttf");
+}
+
+body{
+    width: 100%;
+    height:100%;
+    padding: 0%;
+    margin: 0%;
+}
+.contenedor{
+    font-family: roboto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+#tituloPrincipal{
+    font-size: 50px;
+    margin-bottom: 1vh;
+}
+
+#descripcionPrincipal{
+    padding-bottom: 1vh;
+}
+
+.logoPrimeraPantalla{
+    width: 50%;
+    padding-bottom: 5vh;
+}
+
+.tituloBienvenida{
+    font-weight: bold;
+}
+
+.DescripcionApp{
+    width: 80%;
+    text-align: center;
+    padding-bottom: 10vh;
+}
+
+.botonesIngreso{
+    margin: 20px;
+    color: white;
+    width: 90%;
+ padding: 0.7em 1.7em;
+ font-size: 18px;
+ border-radius: 25px;
+ background: #557DA5;
+ border: 1px solid #557DA5;
+ transition: all .3s;
+
+}
